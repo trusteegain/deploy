@@ -10,7 +10,7 @@ const Button = () => {
             <IoLogoWhatsapp />
             </div>
         </div>
-        <span>Send</span>
+        <span>Send</span> 
 </button>
     </>
   )
