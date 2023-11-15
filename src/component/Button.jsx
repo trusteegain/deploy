@@ -1,16 +1,18 @@
 import React from 'react'
-import { IoLogoWhatsapp } from "react-icons/io";
 
-const Button = () => {
+
+
+const Button = ({tiktok, message }) => {
   return (
     <>
     <button>
         <div class="svg-wrapper-1">
             <div class="svg-wrapper">
-            <IoLogoWhatsapp />
+          
+           {tiktok}
             </div>
         </div>
-        <span>Send</span> 
+        <span>{message}</span> 
 </button>
     </>
   )

@@ -1,8 +1,11 @@
 import React from 'react'
-import img from '../assets/images/img.jpg'
+import img from '../assets/images/img.jpeg'
 import About from './About'
 import Footer from './Footer'
 import Button from './button'
+import { FaTiktok } from "react-icons/fa6";
+import { IoLogoWhatsapp } from "react-icons/io";
+
 
 const Info = () => {
   return (
@@ -22,10 +25,17 @@ const Info = () => {
           </span>
       </p>
       <div className="button-container">
-      <Button />
-      <Button />
+      <Button
+       message="Message" 
+       tiktok={  <IoLogoWhatsapp />}
+       setUp="this is a setUp"/>
+
+      <Button 
+      message="Connect" 
+      tiktok={ <FaTiktok /> }/>
+
       </div>
-      <About />
+       <About /> 
       <Footer />
   </div>
     </>

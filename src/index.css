@@ -3,10 +3,11 @@ body{
    
 }
 
+ 
 
 .card-client {
    background: rgb(34, 102, 92);
-   width: 20rem;
+   width: 25rem;
    padding-top: 25px;
    padding-bottom: 25px;
    padding-left: 20px;
